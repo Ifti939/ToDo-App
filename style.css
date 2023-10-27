@@ -1,0 +1,48 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+max-width: 400px;
+margin:20px auto;
+background-color: #fff;
+padding: 20px;
+box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+}
+h1{
+    text-align: center;
+}
+form{
+    margin-bottom: 10px;
+}
+
+input[type='text']{
+    width:70%;
+    padding:5px;
+    font-size: 14px; 
+}
+
+#btn,.delete-btn{
+    background-color: lightgreen;
+    color:#ffff;
+    padding:5px;  
+    font-size: 14px; 
+}
+
+.delete-btn, .textedit{
+ font-size: 10px !important;
+ border:1px solid black ;
+ border-radius: 10%;
+}
+
+.textedit{
+    background-color: rgb(228, 231, 228);
+    color:#0a0a0a;
+    padding:5px; 
+}
+
+.TaskItem{
+ display: flex;
+ justify-content: space-between;
+
+}
